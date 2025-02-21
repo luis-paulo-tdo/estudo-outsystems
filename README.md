@@ -47,3 +47,10 @@
 	- Desenvolvimento: Service Studio e Integration Studio.
 	- Admin e Operações: LifeTime e Service Center.
 	- Community: Forge e Community.
+
+### 1.3. Service Studio
+- É através dele que criamos nossas aplicações e os seus módulos.
+- Definimos também o Data Model com ele.
+- Criamos interfaces para aplicações web e mobile.
+- Usamos ele para definir processos e timers.
+- Usamos ele para depurar as aplicações desenvolvidas.
