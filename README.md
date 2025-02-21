@@ -25,3 +25,25 @@
 	- Ela oferece meios de integração e extensão com aplicações do mundo todo.
 	- Ela favorece todo o desenvolvimento dentro do ciclo DevOps de forma fácil.
 	- Ela fornece uma experiência rica no ponto de vista dos consumidores.
+
+### 1.2. Visão Geral
+- A plataforma OutSystems é formada por diversos componentes e ferramentas.
+- O Platform Server é o primeiro destes componentes, sendo o principal.
+	- Possui todas as informações que são armazenadas, junto com o banco.
+	- Permite o gerenciamento e monitoramento das aplicações.
+	- Permite a compilação e implantação das aplicações nos ambientes.
+- O Service Studio é a ferramente de desenvolvimento visual da aplicação.
+- O Integration Studio facilita a integração com APIs e bancos de dados.
+- O Service Center permite gerir todo o ambiente das aplicações.
+	- Permite também realizar configurações e monitorar logs da aplicação.
+- O LifeTime permite gerenciar todo o ciclo de vida das aplicações.
+	- Com poucos cliques, o deploy é feito em UAT e produção.
+	- Permite também o versionamento e controle de usuários dos ambientes.
+	- Permite gerenciar as infraestruturas dos ambientes de UAT e produção.
+	- Permite realizar logs, gerenciamento de dados e performance.
+- O OutSystems Forge disponibiliza ferramentas e componentes de terceiros.
+- Os Community Forums permite o acesso à comunidade de OutSystems.
+- Em resumo:
+	- Desenvolvimento: Service Studio e Integration Studio.
+	- Admin e Operações: LifeTime e Service Center.
+	- Community: Forge e Community.
