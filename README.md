@@ -54,3 +54,5 @@
 - Criamos interfaces para aplicações web e mobile.
 - Usamos ele para definir processos e timers.
 - Usamos ele para depurar as aplicações desenvolvidas.
+
+### 1.4. Tipos de Aplicações
