@@ -56,3 +56,63 @@
 - Usamos ele para depurar as aplicações desenvolvidas.
 
 ### 1.4. Tipos de Aplicações
+- O OutSystems pode criar dois tipos de aplicações: Mobile e Reactive Web.
+- Aplicações Mobile são voltadas para Smartphones e Tablets.
+- Reactive Web são aplicações que se moldam ao Mobile e ao Desktop.
+- Antigamente, as aplicações Web não eram reativas a estes dois ambientes.
+- Independente do tipo, estas aplicações englobam as melhores práticas.
+- Elas devem fornecer aos usuários as melhores experiências possíveis.
+- O low code une em si uma experiência unificada de desenvolvimento.
+- O que considerar ao escolher um tipo ou outro para desenvolver.
+- Reusabilidade:
+	- Aplicações responsivas reusam a lógica entre ambientes.
+	- Aplicaões mobile reusam a lógica entre dispositivos.
+- Público e Dispositivos:
+	- Aplicações responsivas são acessadas em navegadores.
+	- Aplicações mobile precisam ser instaladas no dispositivo.
+- Experiência de Usuário:
+	- Aplicações responsivas servem a vários tamanhos e tipos de telas.
+	- Aplicações mobile servem aos padrões e experiências dos aparelhos.
+- A performance é a mesma para ambas as aplicações.
+- Acesso a Recursos de Hardware:
+	- Aplicações responsivas o fazem através do HTML5.
+	- Aplicações mobile o fazem através dos dispositivos.
+- Capacidades Offline:
+	- Aplicações responsivas são muito limitadas neste aspecto.
+	- Aplicações mobile podem usar recursos do próprio aparelho.
+- Implantação e Atualização:
+	- Aplicações responsivas já trazem por meio do navegador.
+	- Aplicações mobile trazem apenas por meio de atualizações.
+- Distribuição:
+	- Aplicações responsivas dispõem apenas de um link.
+	- Aplicações mobile necessitam baixar o aplicativo desenvolvido.
+
+### 1.5. Programação Modular
+- Além de criar aplicações, somos capazes de dividí-las em Módulos.
+- Com isso, encapsulamos partes das aplicações para reusá-las.
+- Estas partes podem ser independentes e insubstituíveis.
+- Ex: Módulo de Interface de Acesso e Módulo de Base de Dados.
+- O código e a interface são desenvolvidos dentro do Módulo.
+- Módulos são divididos por Tipo:
+	- Aplicação (Reactive Web e Mobile)
+	- Blank
+	- Serviço
+	- Biblioteca
+	- Extensão
+- Uma Aplicação agrupa um conjunto de Módulos.
+- Os Módulos podem compartilhar elementos com outros Módulos.
+	- Estes Módulos são chamados de Produtores.
+	- Os Módulos que usam as features de outros são Consumidores.
+- Produtores e Consumidores podem estar em diferentes Aplicações.
+- Existem alguns Módulos que já são criados por convenção.
+- O Módulo Core, de Tipo Serviço contém as bases da Aplicação.
+	- Serviços só têm camadas de Processo, Lógica e de Dados.
+- O Módulo Web, de Tipo Reactive, inclui a camada Interface.
+- No Módulo Core, são criadas as Entidades das Tabelas:
+	- Ao definí-la como Pública, é possível expor ela a outras.
+	- Deve-se adicionar a ela Atributos além do Id.
+- O botão Publish no Service Studio permite a publicação:
+	- O Módulo passa a ficar disponível no ambiente OutSystems.
+- Com isso, é possível consumir o Core em outro Módulo.
+- O Manage Dependencies do Service Studio permite o consumo.
+	- É possível selecionar quais informações serão consumidas.
