@@ -143,3 +143,17 @@
 - Todos estes Atributos vêm com um valor padrão.
 - O OutSystems possui uma IA que identifica o Tipo de um Atributo.
 	- A identificação é feita através do nome do Atributo.
+
+### 1.7. Modelando Dados - Ações e Entidades Estáticas
+- Assim que a Entidade é criada, Ações padrão são automaticamente criadas.
+- Estas Ações são o CRUD: Create, Retrieve, Update, Delete.
+- Elas podem ser usadas diretamente na lógica de negócio da aplicação.
+- No OutSystems, existem também as Entidades que são as Estáticas:
+	- Ela cria uma lista pré-definida de valores que não se alteram.
+	- Ex: Status, Cores, Tipos, Etapas, Moeda, Países, Estados, Cidades.
+- Entidades Estáticas não são alteradas em tempo de execução.
+- Para as Entidades Estáticas, somente a Ação Retrieve é possível.
+- Apenas quatro Atributos Padrão são criadas para a Entidade Estática.
+	- Apenas os necessários: Id, Label, Order e Is_Active.
+- As Entidades Estáticas podem ser referenciadas pelas Labels na lógica.
+- As Entidades Estáticas são muito mais leves e fáceis de se consumir.
