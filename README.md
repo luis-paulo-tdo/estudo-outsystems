@@ -116,3 +116,30 @@
 - Com isso, é possível consumir o Core em outro Módulo.
 - O Manage Dependencies do Service Studio permite o consumo.
 	- É possível selecionar quais informações serão consumidas.
+
+### 1.6. Modelando Dados - Entidades e Atributos
+- Em qualquer tipo de aplicação, precisamos manipular informações.
+- Precisamos armazenar, processar e recuperar estas informações.
+- As informações possuem valor para todo tipo de negócio.
+- Estas informações geralmente são referenciadas como Entidades.
+	- Clientes, Produtos, Pedidos, Tipo de Pedido, Status.
+- As Entidades são organizadas em ambiente de desenvolvimento.
+- Toda Entidade possui um conjutno de Dados ou Atributos.
+- As Entidades também possuem Relacionamentos dentro do ambiente.
+- Uma Entidade nada mais é que uma Tabela na Base de Dados.
+	- Atributos -> Colunas
+	- Id -> Chave Primária
+	- Atributo de Referência -> Chave Estrangeira
+	- Índice -> Índice
+	- Registro ou Instância -> Linha ou Tupla
+- Cada aspecto do negócio é representado por uma Entidade.
+- As Entidades são armazenadas dentro do Banco de Dados.
+- Dentro do OutSystems, as Entidades também possuem Ações.
+	- Criar, Alterar, Deletar Tabela
+- A Chave Primária é o registro único da Entidade.
+- Os Atributos apresentam diferentes conceitos da Entidade.
+- Cada Atributo possui um Tipo, definindo sua função e formatação.
+	- Números, Textos, Telefone, E-mail, Monetário, Booleano, etc.
+- Todos estes Atributos vêm com um valor padrão.
+- O OutSystems possui uma IA que identifica o Tipo de um Atributo.
+	- A identificação é feita através do nome do Atributo.
