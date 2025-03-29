@@ -183,3 +183,9 @@
 	- As demais linhas são os valores de cada registro inserido.
 - Sempre que as importações forem feitas, deve ser feito um Publish.
 
+### 1.9. Modelando Dados - Criando e editando via Interface
+- Uma vez tendo criado e populado as Entidades, é possível editá-las manualmente.
+- Edições via Service Studio só devem ser feitas em ambiente de desenvolvimento.
+- Novos registros podem ser adicionados manualmente via Service Studio.
+- Também é possível criar manualmente as Entidades Estáticas no Service Studio.
+- Criar Atributos iguais aos nomes de outras Entidades gera referência automática.
