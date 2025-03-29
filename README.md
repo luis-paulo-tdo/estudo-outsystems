@@ -189,3 +189,22 @@
 - Novos registros podem ser adicionados manualmente via Service Studio.
 - Também é possível criar manualmente as Entidades Estáticas no Service Studio.
 - Criar Atributos iguais aos nomes de outras Entidades gera referência automática.
+
+### 1.10. Desenvolvimento de UIs Reativas - Conceito de Widgets
+- Uma interface gráfica é um conjunto organizado de componentes gráficos.
+- Através destes componentes, o usuário interage com a Aplicação.
+- Um conjunto de interfaces gráficas compõem um fluxo de interações.
+- As telas podem ser construídas vazias ou partindo de um Template.
+- Dentro do OutSystems, os componentes são chamados de Widgets.
+- Um Widget pode ser um campo texto, um botão, um check ou uma lista.
+- Os Widgets podem ser responsivos, adaptando-se a mais de uma tela.
+- Cada tela dentro do OutSystems engloba um conjunto de informações.
+- Estas informações podem ser passadas via parâmetro dentro do fluxo.
+- Através de uma tela, outra tela pode ser chamada recebendo dados.
+- Estes dados são carregados na próxima tela por meio de variáveis.
+- As telas também podem ter variáveis locais, consumidas dentro dela.
+- Componentes como botões também podem chamar ações lógicas:
+	- Um botão "Salvar", por exemplo pode chamr uma ação ou uma tela.
+- Estas ações lógicas no OutSystems são chamadas de Screen Actions.
+- O destino do botão ou link é configurado através do Service Studio:
+	- Outra tela, URL externa, ações e eventos.
