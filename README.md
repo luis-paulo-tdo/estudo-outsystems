@@ -157,3 +157,29 @@
 	- Apenas os necessários: Id, Label, Order e Is_Active.
 - As Entidades Estáticas podem ser referenciadas pelas Labels na lógica.
 - As Entidades Estáticas são muito mais leves e fáceis de se consumir.
+
+### 1.8. Modelando Dados - Importação de Entidades e Dados
+- Para realizar a modelagem de dados, uma Aplicação nova deve ser criada.
+- Dentro da Aplicação, deve ser criado um Módulo que tenha a camada Data.
+- Na camada Data, já há uma Entidade Default para os usuários (User).
+- Em cima do item Database, podemos adicionar uma nova entidade Wine.
+- As novas Entidades já são criadas com todas as Ações e somente o Id:
+	- Deve ser adicionado pelo menos um Atributo para a nova Entidade.
+- Os novos Atributos adicionados já vem com tamanho padrão:
+	- Além do tamanho, o Tipo e a Obrigatoriedade são automáticos.
+	- É possível também definir um valor padrão para o Atributo.
+- Os Atributos vêm acompanhados de um dado chamado Label:
+	- As Labels correspondem ao nome que será apresentado na Aplicação.
+- Outra forma de se criar Entidades no OutSystems é pela importação:
+	- O nome deste processo se chama Bootstrap.
+- Um arquivo Excel pode ser utilizado para a importação de seus dados:
+	- O nome do arquivo deve ser o nome da Entidade.
+	- Para cada Atributo, deve haver uma coluna diferente.
+	- A primeira linha é o nome do Atributo.
+	- As demais linhas são os valores para cada registro inserido.
+- Também é possível importar dados para uma Entidade:
+	- O Excel deve ser também organizado em colunas.
+	- A primeira linha corresponde aos nomes dos Atributos.
+	- As demais linhas são os valores de cada registro inserido.
+- Sempre que as importações forem feitas, deve ser feito um Publish.
+
