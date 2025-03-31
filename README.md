@@ -208,3 +208,17 @@
 - Estas ações lógicas no OutSystems são chamadas de Screen Actions.
 - O destino do botão ou link é configurado através do Service Studio:
 	- Outra tela, URL externa, ações e eventos.
+
+### 1.11. Desenvolvimento de UIs Reativas - Criando a primeira Tela
+- No Service Studio, é possível criar as telas de um Módulo na camada Interface.
+- A tela pode ser criada do zero, manualmente, ou a partir de um Template.
+- As telas possuem espaços reservados para a adição e composição de Widgets.
+- Os Widgets são adicionados na tela com um simples drag and drop.
+- Cada Widget possui atributos e estilos que são configuráveis.
+- É possível até mesmo utilizar conceitos de CSS para estilizar os componentes.
+- É possível salvar em classes todos os CSS escritos dentro dos componentes.
+- O OutSystems permite que o tema da Aplicação seja ajustado em um modal.
+- Adicionando Widgets de visualização, deve-se escolher os dados a serem vistos:
+	- O Widget já é carregado com uma lista dos registros daquela Entidade.
+- Todo Widget de Botão deve estar associada a uma Ação ao ser clicada.
+- O OutSystems cria por padrão uma tela de Login para autenticação.
